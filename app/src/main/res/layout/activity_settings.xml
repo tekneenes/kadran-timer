@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Retro Flip Clock Ayarları"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <!-- 1. Video Arka Planı -->
+        <Switch
+            android:id="@+id/switchShowVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video Arka Planı"
+            android:textColor="#E0E0E0"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:padding="8dp" />
+
+        <!-- 2. Video Kalitesi -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+            
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Video Kalitesi"
+                android:textColor="#E0E0E0"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spinnerVideoQuality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- 3. Cam Arka Plan (Liquid Glass) -->
+        <Switch
+            android:id="@+id/switchShowGlass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cam Arka Plan (Liquid Glass)"
+            android:textColor="#E0E0E0"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:padding="8dp" />
+
+        <!-- 4. Saniyeleri Göster -->
+        <Switch
+            android:id="@+id/switchShowSeconds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saniyeleri Göster"
+            android:textColor="#E0E0E0"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:padding="8dp" />
+
+        <!-- 5. 24 Saat Biçimi -->
+        <Switch
+            android:id="@+id/switchUse24Hour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="24 Saat Biçimi"
+            android:textColor="#E0E0E0"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:padding="8dp" />
+
+        <!-- 6. Büyük Saat Modu -->
+        <Switch
+            android:id="@+id/switchBigClock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Büyük Saat Modu"
+            android:textColor="#E0E0E0"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:padding="8dp" />
+
+        <!-- 7. Saat Tıklama Sesi -->
+        <Switch
+            android:id="@+id/switchTickSound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saat Tıklama Sesi (Ticking)"
+            android:textColor="#E0E0E0"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:padding="8dp" />
+
+        <!-- 8. Hava Durumu Şehri -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Hava Durumu Şehri"
+                android:textColor="#E0E0E0"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editWeatherCity"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FFB300"
+                android:hint="Şehir adı"
+                android:textColorHint="#888888" />
+        </LinearLayout>
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Kaydet ve Kapat"
+            android:textColor="#121212"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="#FFB300"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

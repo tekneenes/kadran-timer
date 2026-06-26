@@ -1,0 +1,110 @@
+[
+  {
+    "id": "hawaii_valleys",
+    "name": "Hawaii (Vadiler)",
+    "url": "https://sylvan.apple.com/Videos/comp_H005_C012_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov",
+    "url4k": "https://sylvan.apple.com/Aerials/2x/Videos/comp_H005_C012_PS_v01_SDR_PS_20180925_SDR_4K_HEVC.mov"
+  },
+  {
+    "id": "hawaii_coast",
+    "name": "Hawaii (Sahil)",
+    "url": "https://sylvan.apple.com/Videos/comp_H012_C009_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov",
+    "url4k": "https://sylvan.apple.com/Aerials/2x/Videos/comp_H012_C009_PS_v01_SDR_PS_20180925_SDR_4K_HEVC.mov"
+  },
+  {
+    "id": "london_shard",
+    "name": "Londra (The Shard)",
+    "url": "https://sylvan.apple.com/Videos/comp_L007_C007_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov",
+    "url4k": "https://sylvan.apple.com/Aerials/2x/Videos/comp_L007_C007_PS_v01_SDR_PS_20180925_SDR_4K_HEVC.mov"
+  },
+  {
+    "id": "london_bridge",
+    "name": "Londra (Tower Bridge)",
+    "url": "https://sylvan.apple.com/Videos/comp_L012_c002_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov",
+    "url4k": "https://sylvan.apple.com/Aerials/2x/Videos/comp_L012_c002_PS_v01_SDR_PS_20180925_SDR_4K_HEVC.mov"
+  },
+  {
+    "id": "sf_bridge",
+    "name": "San Francisco (Golden Gate)",
+    "url": "https://sylvan.apple.com/Videos/comp_A013_C012_0122D6_CC_v01_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov",
+    "url4k": "https://sylvan.apple.com/Aerials/2x/Videos/comp_A013_C012_0122D6_CC_v01_SDR_PS_FINAL_20180709_SDR_4K_HEVC.mov"
+  },
+  {
+    "id": "sf_downtown",
+    "name": "San Francisco (Şehir Merkezi)",
+    "url": "https://sylvan.apple.com/Videos/comp_A015_C018_0128ZS_v03_SDR_PS_FINAL_20180709__SDR_2K_AVC.mov",
+    "url4k": "https://sylvan.apple.com/Aerials/2x/Videos/comp_A015_C018_0128ZS_v03_SDR_PS_FINAL_20180709__SDR_4K_HEVC.mov"
+  },
+  {
+    "id": "china_wall",
+    "name": "Çin (Çin Seddi)",
+    "url": "https://sylvan.apple.com/Videos/comp_C003_C003_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov",
+    "url4k": "https://sylvan.apple.com/Aerials/2x/Videos/comp_C003_C003_PS_v01_SDR_PS_20180925_SDR_4K_HEVC.mov"
+  },
+  {
+    "id": "ny_times_square",
+    "name": "New York (Times Square)",
+    "url": "https://sylvan.apple.com/Videos/comp_N013_C004_PS_v01_SDR_PS_20180925_F1970F7193_SDR_2K_AVC.mov",
+    "url4k": "https://sylvan.apple.com/Aerials/2x/Videos/comp_N013_C004_PS_v01_SDR_PS_20180925_F1970F7193_SDR_4K_HEVC.mov"
+  },
+  {
+    "id": "ny_central_park",
+    "name": "New York (Central Park)",
+    "url": "https://sylvan.apple.com/Videos/comp_N008_C009_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov",
+    "url4k": "https://sylvan.apple.com/Aerials/2x/Videos/comp_N008_C009_PS_v01_SDR_PS_20180925_SDR_4K_HEVC.mov"
+  },
+  {
+    "id": "ny_night",
+    "name": "New York (Gece Uçuşu)",
+    "url": "https://sylvan.apple.com/Videos/comp_GMT307_136NC_134K_8277_NY_NIGHT_01_v25_SDR_PS_20180907_SDR_2K_AVC.mov",
+    "url4k": "https://sylvan.apple.com/Aerials/2x/Videos/comp_GMT307_136NC_134K_8277_NY_NIGHT_01_v25_SDR_PS_20180907_SDR_4K_HEVC.mov"
+  },
+  {
+    "id": "greenland_icefjord",
+    "name": "Grönland (Buz Fiyortları)",
+    "url": "https://sylvan.apple.com/Videos/comp_GL_G002_C002_PSNK_v03_SDR_PS_20180925_SDR_2K_AVC.mov",
+    "url4k": "https://sylvan.apple.com/Aerials/2x/Videos/comp_GL_G002_C002_PSNK_v03_SDR_PS_20180925_SDR_4K_HEVC.mov"
+  },
+  {
+    "id": "greenland_peninsula",
+    "name": "Grönland (Yarımada)",
+    "url": "https://sylvan.apple.com/Videos/comp_GL_G004_C010_PSNK_v04_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov",
+    "url4k": "https://sylvan.apple.com/Aerials/2x/Videos/comp_GL_G004_C010_PSNK_v04_SDR_PS_FINAL_20180709_SDR_4K_HEVC.mov"
+  },
+  {
+    "id": "liwa_desert",
+    "name": "Liwa Çölü",
+    "url": "https://sylvan.apple.com/Videos/comp_LW_L001_C006_PSNK_DENOISE_v02_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov",
+    "url4k": "https://sylvan.apple.com/Aerials/2x/Videos/comp_LW_L001_C006_PSNK_DENOISE_v02_SDR_PS_FINAL_20180709_SDR_4K_HEVC.mov"
+  },
+  {
+    "id": "dubai_marina",
+    "name": "Dubai (Marina)",
+    "url": "https://sylvan.apple.com/Videos/comp_DB_D001_C001_PSNK_v06_SDR_PS_20180824_SDR_2K_AVC.mov",
+    "url4k": "https://sylvan.apple.com/Aerials/2x/Videos/comp_DB_D001_C001_PSNK_v06_SDR_PS_20180824_SDR_4K_HEVC.mov"
+  },
+  {
+    "id": "dubai_burj",
+    "name": "Dubai (Burç Halife)",
+    "url": "https://sylvan.apple.com/Videos/comp_DB_D008_C010_PSNK_v21_SDR_PS_20180914_F0F16157_SDR_2K_AVC.mov",
+    "url4k": "https://sylvan.apple.com/Aerials/2x/Videos/comp_DB_D008_C010_PSNK_v21_SDR_PS_20180914_F0F16157_SDR_4K_HEVC.mov"
+  },
+  {
+    "id": "la_coast",
+    "name": "Los Angeles (Santa Monica Sahili)",
+    "url": "https://sylvan.apple.com/Videos/comp_LA_A008_C004_ALTB_ED_FROM_FLAME_RETIME_v46_SDR_PS_20180917_SDR_2K_AVC.mov",
+    "url4k": "https://sylvan.apple.com/Aerials/2x/Videos/comp_LA_A008_C004_ALTB_ED_FROM_FLAME_RETIME_v46_SDR_PS_20180917_SDR_4K_HEVC.mov"
+  },
+  {
+    "id": "la_downtown",
+    "name": "Los Angeles (Şehir Merkezi)",
+    "url": "https://sylvan.apple.com/Videos/comp_LA_A011_C003_DGRN_LNFIX_STAB_v57_SDR_PS_20181002_SDR_2K_AVC.mov",
+    "url4k": "https://sylvan.apple.com/Aerials/2x/Videos/comp_LA_A011_C003_DGRN_LNFIX_STAB_v57_SDR_4K_HEVC.mov"
+  },
+  {
+    "id": "hk_harbour",
+    "name": "Hong Kong (Victoria Limanı)",
+    "url": "https://sylvan.apple.com/Videos/comp_HK_B005_C011_PSNK_v16_SDR_PS_20180914_SDR_2K_AVC.mov",
+    "url4k": "https://sylvan.apple.com/Aerials/2x/Videos/comp_HK_B005_C011_PSNK_v16_SDR_PS_20180914_SDR_4K_HEVC.mov"
+  }
+]
