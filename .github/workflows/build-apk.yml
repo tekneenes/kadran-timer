@@ -29,6 +29,7 @@ jobs:
       - name: Generate Gradle Wrapper
         run: |
           mkdir temp-gradle
+          touch temp-gradle/settings.gradle
           cd temp-gradle
           gradle wrapper --gradle-version 8.2
           cd ..
