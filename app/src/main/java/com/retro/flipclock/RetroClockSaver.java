@@ -47,6 +47,8 @@ public class RetroClockSaver extends DreamService {
         settings.setDatabaseEnabled(true);
         settings.setAllowFileAccess(true);
         settings.setAllowContentAccess(true);
+        settings.setAllowFileAccessFromFileURLs(true);
+        settings.setAllowUniversalAccessFromFileURLs(true);
         
         // Media playback options
         settings.setLoadWithOverviewMode(true);
