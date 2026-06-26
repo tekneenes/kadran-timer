@@ -6,6 +6,8 @@ import android.view.ViewGroup;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.webkit.WebResourceRequest;
+import android.webkit.WebResourceResponse;
 import android.widget.FrameLayout;
 
 public class RetroClockSaver extends DreamService {
@@ -58,7 +60,17 @@ public class RetroClockSaver extends DreamService {
         // Inject bridge interface
         mWebView.addJavascriptInterface(new AndroidSettingsInterface(this), "AndroidSettings");
 
+        // Setup Modern Asset Loader to bypass CORS module protocol blocks
+        final androidx.webkit.WebViewAssetLoader assetLoader = new androidx.webkit.WebViewAssetLoader.Builder()
+                .addPathHandler("/assets/", new androidx.webkit.WebViewAssetLoader.AssetsPathHandler(this))
+                .build();
+
         mWebView.setWebViewClient(new WebViewClient() {
+            @Override
+            public WebResourceResponse shouldInterceptRequest(WebView view, WebResourceRequest request) {
+                return assetLoader.shouldInterceptRequest(request.getUrl());
+            }
+
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
                 return false;
@@ -69,7 +81,7 @@ public class RetroClockSaver extends DreamService {
     @Override
     public void onDreamingStarted() {
         super.onDreamingStarted();
-        mWebView.loadUrl("file:///android_asset/index.html");
+        mWebView.loadUrl("https://appassets.androidplatform.net/assets/index.html");
     }
 
     @Override
